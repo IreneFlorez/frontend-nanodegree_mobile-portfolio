@@ -9,13 +9,12 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
 
 ###Part 1: Optimize PageSpeed Insights score for index.html
-Optimize for a 90 minimum PageSpeed Insights Score. My score is 98 out of 100
+Optimize for a 90 minimum PageSpeed Insights Score. 
 
 1. Inline CSS (also minified) to avoid render-blocking 
 2. Print style inlined (also minified and saved as media query)
 3. Async Google fonts, JS files, and google-analytics so it won't interfere with page load
-4. Use Web Font Loader to load the Google WebFont to speed up loading via preloading
-5. Compress jpg and png files to reduce load time, make remote images local and optimized
+4. Compress jpg and png files to reduce load time
 
 
 ###Part 2: Optimize Frames per Second in pizza.html
@@ -24,7 +23,7 @@ You might find the FPS Counter/HUD Display useful in Chrome developer tools desc
 
 Techniques used to optimize pizza.html:
 1. Inline (also minified) styles to avoid render-blocking
-2. Compress jpg and png files to reduce load time, make remote images local and optimized
+2. Compress jpg and png files to reduce load time
 
 Techniques used to optimize main.js:
 1. Remove sizeSwitcher() 
@@ -51,7 +50,7 @@ Techniques used to optimize main.js:
 
 ### Loading/Use Instructions
 
-To view the portfolio website download all the files and open index.html in your browser.
+To view the portfolio website download all the files and open index.html in your browser or view the site here: https://ireneflorez.github.io/mobile-portfolio/
 
 To view the pizza website download all of the files and open views/pizza.html in your browser.
 
